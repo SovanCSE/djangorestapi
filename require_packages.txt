@@ -1,0 +1,2 @@
+For django restframework we have install below packages:
+>> pip install djangorestframework

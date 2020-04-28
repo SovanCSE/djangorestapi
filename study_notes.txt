@@ -1,0 +1,24 @@
+What is REST:-
+ >> Representional State Transfer
+
+Key constraints:-
+- Stateless
+- resourceful ex. user, pull, employee
+- client-server architecture
+- layered system
+- cacheability
+
+Benefits :-
+- State is not required to store at server side
+- Performance
+- Reliability
+- Help to grow
+- Cross platform applications
+
+Http methods are:-
+1. GET
+2. POST
+3. PUT
+4. PETCH
+5. DELETE
+

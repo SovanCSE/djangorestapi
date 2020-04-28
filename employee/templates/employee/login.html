@@ -1,0 +1,17 @@
+{% extends "employee/base.html" %}
+
+{% block content %}
+<div class="row">
+    <div class="col text-center">
+        {% if error %}
+        {{ error }}
+        {% endif %}
+ <form method="POST">
+     {% csrf_token %}
+        {{form.as_p}}
+      <button class="btn btn-success">Sign in</button>
+ </form>
+        <p>looking for new account then <a href="{% url 'registration' %}">Sign up</a></p>
+    </div>
+</div>
+{% endblock content %}
