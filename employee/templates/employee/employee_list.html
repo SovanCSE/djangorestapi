@@ -1,0 +1,24 @@
+{% extends "employee/base.html" %}
+
+{% block content %}
+ <div class="row">
+    <div class="col text-center">
+        <table class="table table-bordered">
+            <thead>
+            <th>Username</th>
+            <th>Category</th>
+            <th>Salary</th>
+            </thead>
+            <tbody>
+            {% for emp in employee_list %}
+             <tr>
+                 <td>{{emp.username}}</td>
+                 <td>{{emp.employeeprofile.category}}</td>
+                 <td>{{emp.employeeprofile.salary}}</td>
+             </tr>
+            </tbody>
+            {% endfor %}
+        </table>
+    </div>
+ </div>
+{% endblock %}

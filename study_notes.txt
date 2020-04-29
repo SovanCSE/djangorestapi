@@ -22,3 +22,6 @@ Http methods are:-
 4. PETCH
 5. DELETE
 
+What is mixins in django?
+answer: Mixin use to reduce redundancy code at class base views by declare one reuse so many places.
+
