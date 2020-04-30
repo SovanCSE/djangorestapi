@@ -22,3 +22,20 @@ Http methods are:-
 4. PETCH
 5. DELETE
 
+#what is differnet between *agrs and **kwargs?
+*args ==> it called as variable number of arguments that means you can pass any number of arguments
+while calling a function then get back as a list.
+**kwargs ==> It called as varaible number of keyword arguments that means you can key word
+arguments while calling a function finally get back as dictionary.
+
+#what is mixins?
+In Django Mixins is act like parent class.Main purpose to use this to always provide functionality
+ support to the child class(to code usability puspose) not to any parent class(himself).It would
+ not create object for himself.It always extends only object class not in other class by default
+ if not pasing as object as well.It does content any instance variable only use to provide
+ functioanlity to child class to creating object instance is meaning class.
+
+ 1. There is no point parent class instantiation.
+ 2. Parent class contains only instance methods not instance variable.
+ 3. The methods are useful for child class.
+ 4. Parent class should be direct throguh child class object.

@@ -1,0 +1,23 @@
+We can disabled csrf_token as three level:
+ 1. Project level
+ 2. class level
+ 3. function level
+
+1. Disable csrf_token as project level:
+   Disable 'django.middleware.csrf.CsrfViewMiddleware' line inside middleware list in settings.py
+    file
+2. Disable csrf_token as class level:
+:
+
+
+3. Disable csrf_token as method level:
+ Step1: import below package
+   from django.views.decorators.csrf import csrf_exempt
+ Step2: declare below decoration as top of your function
+   @csrf_exempt
+   def view_function(request):
+       pass
+
+
+
+
