@@ -1,2 +1,2 @@
 # djangorestapi
-dajango rest api internal package implementation
+django rest api internal package implementation
