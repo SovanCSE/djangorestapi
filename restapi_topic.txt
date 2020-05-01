@@ -1,0 +1,28 @@
+Topics are:===>
+1. Introduction to serializer
+2. Working with modal serializer
+3. Wokring with functional based api
+4. Introduction to api_view() decorator in function based api view
+5. Workig with class base api view
+6. Working with generic view and Mixins
+7. Differtent type of authentication like Sesssion auth, Basic auth and Token Auth
+8. Introduction with viewsets and routes
+9. Working with generic viewsets
+10. Wokring with model viewsets
+
+What is serializer in rest framework?
+ Answer: In web api development serializer provides functionality to serializing and
+ deserializing the model object into representation as as json as well as restrict to show extra
+ information by providing necessary fields through selection way.
+
+
+Two types of serializers class are avaliable in restframework:
+ 1. Serializer(we have delaring all serialize field explicitly and save and create function to
+ store validateed data into model)
+ 2. ModelSerializer(we can declare model name as resouce and model fields as serialize field)
+
+
+
+
+
+

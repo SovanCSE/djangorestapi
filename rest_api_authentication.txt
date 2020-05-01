@@ -1,0 +1,4 @@
+Three types of authentication is available in django restframework application:
+1. Baisc Authentication
+2. Session Authentication
+3. Token Athentication
